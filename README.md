@@ -89,19 +89,34 @@ streamlit run app.py
 
 ## 项目截图
 
-### 数据概览
-![数据概览](images/01_overview.png)
+### 1️⃣ 页面概览
+![页面概览](images/01_overview.png)
 
-### 推荐问题与查询结果
-![查询结果](images/02_query.png)
+### 2️⃣ 上传文件与智能推荐
+上传 CSV 文件后，系统自动构建 SQLite 数据库，并根据数据特征生成 5 个推荐问题。
 
-### 可视化图表
-![可视化图表](images/03_chart.png)
+![上传文件构建数据库](images/02_upload_db.png)
 
-### 导出功能
-![导出功能](images/04_export.png)
+![智能推荐问题](images/03_suggested_questions.png)
 
+### 3️⃣ 核心功能展示
+自然语言提问后，系统自动生成 SQL 并返回结果表格与可视化图表。
 
+![查询结果](images/04_query_result.png)
+
+![可视化图表](images/05_chart.png)
+
+### 4️⃣ 支持多轮追问
+用户可基于前序查询结果继续追问，无需重复描述上下文。
+
+![追问示例一](images/06_followup_1.png)
+
+![追问示例二](images/07_followup_2.png)
+
+### 5️⃣ 导出查询历史
+一键将查询历史导出为 Excel，包含摘要和每条查询的详细结果。
+
+![导出功能](images/08_export.png)
 
 ## 作者
 
