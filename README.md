@@ -101,12 +101,7 @@ streamlit run app.py
 ### 导出功能
 ![导出功能](images/04_export.png)
 
-## 未来计划
 
-- [ ] 支持直接上传 Excel 文件
-- [ ] 支持连接 MySQL、PostgreSQL 等远程数据库
-- [ ] 增加多轮对话，支持追问查询结果
-- [ ] 增加 SQL 编辑功能，用户可手动修改生成的 SQL
 
 ## 作者
 
