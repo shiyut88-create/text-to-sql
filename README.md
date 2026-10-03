@@ -86,60 +86,6 @@
 | Plotly Express | 数据可视化 |
 | OpenPyXL | Excel 文件读写支持 |
 
-## 🚀 运行项目
-
-
-### 1. 安装依赖
-
-建议使用 Python 虚拟环境。进入项目目录后，执行：
-
-```bash
-pip install -r requirements.txt
-```
-
-### 2. 配置 DeepSeek API Key
-
-在项目根目录下创建 `.env` 文件，并配置自己的 DeepSeek API Key：
-
-```env
-DEEPSEEK_API_KEY=your_deepseek_api_key
-```
-
-将 `your_deepseek_api_key` 替换为你自己的 API Key。
-
-**注意：请勿将真实 API Key 上传到 GitHub。** 建议在 `.gitignore` 文件中添加 `.env`，避免将密钥提交到公开仓库。
-
-### 3. 启动应用
-
-在项目根目录下执行：
-
-```bash
-streamlit run app.py
-```
-
-启动成功后，根据终端提示在浏览器中打开应用地址，即可开始使用。
-
-## 📁 项目结构
-
-```text
-text-to-sql/
-├── images/
-│   ├── 01.png
-│   ├── 02.png
-│   ├── 03.png
-│   ├── 04.png
-│   ├── 05.png
-│   ├── 06.png
-│   ├── 07.png
-│   ├── 08.png
-│   └── 09.png
-├── app.py
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
-请确保截图文件名与上方路径一致，并将图片放入仓库中的 `images` 文件夹，这样 GitHub 才能正常显示项目截图。
 
 ## 💡 项目亮点
 
