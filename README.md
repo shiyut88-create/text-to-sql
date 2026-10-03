@@ -88,16 +88,8 @@
 
 ## 🚀 运行项目
 
-### 1. 克隆项目
 
-将下面的仓库地址替换为你自己的 GitHub 仓库地址。
-
-```bash
-git clone https://github.com/YOUR_USERNAME/text-to-sql.git
-cd text-to-sql
-```
-
-### 2. 安装依赖
+### 1. 安装依赖
 
 建议使用 Python 虚拟环境。进入项目目录后，执行：
 
@@ -105,7 +97,7 @@ cd text-to-sql
 pip install -r requirements.txt
 ```
 
-### 3. 配置 DeepSeek API Key
+### 2. 配置 DeepSeek API Key
 
 在项目根目录下创建 `.env` 文件，并配置自己的 DeepSeek API Key：
 
@@ -117,7 +109,7 @@ DEEPSEEK_API_KEY=your_deepseek_api_key
 
 **注意：请勿将真实 API Key 上传到 GitHub。** 建议在 `.gitignore` 文件中添加 `.env`，避免将密钥提交到公开仓库。
 
-### 4. 启动应用
+### 3. 启动应用
 
 在项目根目录下执行：
 
